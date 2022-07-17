@@ -1,0 +1,19 @@
+﻿  fileutils.cpp
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\fileutils.cpp(6,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\fileutils.cpp(29,25): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'size_t'
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\fileutils.cpp(29,25): message : consider using '%zu' in the format string
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\fileutils.cpp(23,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  globalmetadataconverter.cpp
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\globalmetadataconverter.cpp(28,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\globalmetadataconverter.cpp(57,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\globalmetadataconverter.cpp(40,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\globalmetadataconverter.cpp(73): message : see reference to function template instantiation 'void converter::convert_section<Il2CppStringLiteral,Il2CppStringLiteralMihoyo,To convert_Il2CppStringLiteral<Il2CppStringLiteral,Il2CppStringLiteralMihoyo>(From)>(uint32_t,uint32_t,uint32_t &,uint32_t &)' being compiled
+          with
+          [
+              To=Il2CppStringLiteral,
+              From=Il2CppStringLiteralMihoyo
+          ]
+C:\Users\Max\Documents\GitHub\MetadataConverter\tool\globalmetadataconverter.cpp(41,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  main.cpp
+  Generating Code...
+  Tool.vcxproj -> C:\Users\Max\Documents\GitHub\MetadataConverter\bin\windows\Debug-x64\Tool\Tool.exe

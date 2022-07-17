@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-x64|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Debug-x64\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-x64|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Release-x64\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist-x64|x64'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Dist-x64\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-x86|Win32'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Debug-x86\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-x86|Win32'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Release-x86\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist-x86|Win32'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin\windows\Dist-x86\$(ProjectName)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
